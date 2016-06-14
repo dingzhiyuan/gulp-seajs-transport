@@ -1,38 +1,69 @@
 {
-  "name": "gulp-seajs-transport",
-  "version": "0.3.1",
-  "description": "transport seajs modules gulp plugin",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/guilipan/gulp-seajs-transport"
+  "_args": [
+    [
+      {
+        "name": "gulp-seajs-transport-ext",
+        "raw": "gulp-seajs-transport-ext@0.1.1",
+        "rawSpec": "0.1.1",
+        "scope": null,
+        "spec": "0.1.1",
+        "type": "version"
+      },
+      "F:\\web-front"
+    ]
+  ],
+  "_from": "gulp-seajs-transport-ext@0.1.1",
+  "_id": "gulp-seajs-transport-ext@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/gulp-seajs-transport-ext",
+  "_nodeVersion": "4.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/gulp-seajs-transport-ext-0.1.1.tgz_1464252054125_0.9344303482212126"
   },
-  "author": {
-    "name": "guilipan",
+  "_npmUser": {
     "email": "guilipan@163.com",
+    "name": "guilipan"
+  },
+  "_npmVersion": "1.4.9",
+  "_phantomChildren": {
+    "core-util-is": "1.0.2",
+    "inherits": "2.0.1",
+    "isarray": "0.0.1",
+    "string_decoder": "0.10.31",
+    "xtend": "4.0.1"
+  },
+  "_requested": {
+    "name": "gulp-seajs-transport-ext",
+    "raw": "gulp-seajs-transport-ext@0.1.1",
+    "rawSpec": "0.1.1",
+    "scope": null,
+    "spec": "0.1.1",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/gulp-seajs-transport/-/gulp-seajs-transport-0.3.1.tgz",
+  "_shasum": "b1bfac2122c9da5b29a6149b5f50b404a9321c88",
+  "_shrinkwrap": null,
+  "_spec": "gulp-seajs-transport-ext@0.1.1",
+  "_where": "F:\\web-front",
+  "author": {
+    "email": "guilipan@163.com",
+    "name": "guilipan",
     "url": "http://shaynegui.com"
   },
-  "engines": {
-    "node": "*"
+  "bugs": {
+    "url": "https://github.com/dingzhiyuan/gulp-seajs-transport/issues"
   },
-  "scripts": {
-    "test": "mocha test/transport-spec.js"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "gulpplugin",
-    "seajs",
-    "transport"
-  ],
   "dependencies": {
-    "gulp-util": "^3.0.0",
-    "through2": "^0.6.1",
     "cmd-util": "^0.3.13",
+    "gulp-util": "^3.0.0",
     "through2": "^0.6.1"
   },
+  "description": "transport seajs modules gulp plugin ext from gulp-seajs-transport 0.3.1",
   "devDependencies": {
     "chai": "^2.3.0",
     "coveralls": "^2.11.1",
@@ -41,6 +72,40 @@
     "gulp-util": "^3.0.1",
     "istanbul": "^0.3.2",
     "mocha": "^1.21.4"
-
-  }
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "b1bfac2122c9da5b29a6149b5f50b404a9321c88",
+    "tarball": "https://registry.npmjs.org/gulp-seajs-transport-ext/-/gulp-seajs-transport-ext-0.1.1.tgz"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/dingzhiyuan/gulp-seajs-transport/",
+  "keywords": [
+    "gulpplugin",
+    "seajs",
+    "transport"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "idingzhiyuan@gmail.com",
+      "name": "imbigd"
+    }
+  ],
+  "name": "gulp-seajs-transport-ext",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingzhiyuan/gulp-seajs-transport.git"
+  },
+  "scripts": {
+    "test": "mocha test/transport-spec.js"
+  },
+  "version": "0.1.3"
 }
